@@ -1,0 +1,53 @@
+
+.table {
+    background-color: #1a1a1a);   
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+}
+
+nav {
+    list-style: none;
+    background-color: #6DA9DF;
+    border-radius: 25px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+header {
+    font-family: 'Tangerine', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+}
+
+h1 {
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: aqua;
+    text-shadow: 3px;
+}
+
+nav a:hover,
+nav a:selected {
+    color: #32673f;
+}
+
+.corgi-rounded {
+    width: 145px;
+    height: 145px;
+    display: block;
+    margin: 10px auto;
+    object-fit: contain;
+    border-radius: 100%;
+    background: #fff;
+    border: 5px solid #c1c1c1;
+}
