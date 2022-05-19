@@ -1,6 +1,5 @@
-
 .table {
-    background-color: #1a1a1a);   
+    background-color: #1a1a1a);
 }
 
 a {
@@ -50,4 +49,17 @@ nav a:selected {
     border-radius: 100%;
     background: #fff;
     border: 5px solid #c1c1c1;
+}
+
+.history-text>p {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #6DA9;
+}
+
+< !-- Contact Information -->.contact-info>li .phone>a {
+    background-image: url('../img/phone.png');
 }
