@@ -4,7 +4,7 @@
 
 a {
     text-decoration: none;
-    color: aqua;
+    color: #ffffff;
     padding: 10px;
 }
 
@@ -31,13 +31,12 @@ h1 {
     padding: 5px;
     margin-bottom: 0px;
     margin-top: 0px;
-    color: aqua;
+    color: #ffffff;
     text-shadow: 3px;
 }
 
-nav a:hover,
-nav a:selected {
-    color: #32673f;
+nav a:hover {
+    color: maroon;
 }
 
 .corgi-rounded {
@@ -58,13 +57,42 @@ nav a:selected {
 }
 
 .index-text>p {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Quicksand';
-    line-height: 25px;
+    line-height: 20px;
 }
 
 .breed {
     color: maroon;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.Cardigan {
+    width: 400px;
+    border-radius: 25px;
+    background: #6DA9DF;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.Pembroke {
+    border-radius: 25px;
+    background: #6DA9DF;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
 }
 
 < !-- Contact Information -->.contact-info>li .phone>a {
