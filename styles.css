@@ -52,12 +52,19 @@ nav a:selected {
 }
 
 .history-text>p {
-    font-size: 18px;
-    font-family: sans-serif;
+    font-size: 20px;
+    font-family: 'Quicksand';
+    line-height: 25px;
 }
 
-body {
-    background-color: #6DA9;
+.index-text>p {
+    font-size: 20px;
+    font-family: 'Quicksand';
+    line-height: 25px;
+}
+
+.breed {
+    color: maroon;
 }
 
 < !-- Contact Information -->.contact-info>li .phone>a {
