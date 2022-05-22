@@ -1,3 +1,6 @@
+/******************
+General styles
+*******************/
 * {
     margin: 0;
 }
@@ -12,22 +15,19 @@ body {
     background-color: #999;
 }
 
-nav a:visited,
-nav a:link {
-    text-decoration: none;
-    color: #fff;
-    padding: 10px;
-}
-
-nav>ul {
-    display: inline;
-    padding: 0;
-}
-
-nav>ul>li {
-    display: inline-block;
-    list-style: none;
+.corgi-rounded {
+    width: 145px;
+    height: 145px;
+    display: block;
     margin: 0 5px 0 5px;
+    object-fit: contain;
+    border-radius: 100%;
+    background: #fff;
+    border: 5px solid #c1c1c1;
+}
+
+.breed {
+    color: maroon;
 }
 
 header {
@@ -71,41 +71,31 @@ article {
     padding-top: 30px;
 }
 
-h1 {
-    text-align: left;
-    padding: 5px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    color: #ffffff;
-    text-shadow: 3px;
+nav a:visited,
+nav a:link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+nav>ul {
+    display: inline;
+    padding: 0;
+}
+
+nav>ul>li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
 }
 
 nav a:hover {
     color: maroon;
 }
 
-.corgi-rounded {
-    width: 145px;
-    height: 145px;
-    display: block;
-    margin: 0 5px 0 5px;
-    object-fit: contain;
-    border-radius: 100%;
-    background: #fff;
-    border: 5px solid #c1c1c1;
-}
-
-.history-text>p {
-    font-size: 20px;
-    font-family: Arial,
-        Helvetica,
-        sans-serif;
-    line-height: 25px;
-    padding-top: 30px;
-    font-weight: bold;
-    font-style: italic;
-}
-
+/******************
+Index styles
+*******************/
 .index-text>p {
     font-size: 20px;
     font-family: Arial,
@@ -117,9 +107,23 @@ nav a:hover {
     font-style: italic;
 }
 
-.breed {
-    color: maroon;
+/******************
+History styles
+*******************/
+.history-text>p {
+    font-size: 20px;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    line-height: 25px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-style: italic;
 }
+
+/******************
+Varities styles
+*******************/
 
 .column {
     float: left;
@@ -150,14 +154,12 @@ nav a:hover {
 }
 
 /******************
-Contact Information
+Contact styles
 *******************/
 
 .contact-info li {
     line-height: 40px;
-    text-decoration: none;
 }
-
 
 .contact-info li.phone {
     list-style: image url(img/telephone-fill.svg);
