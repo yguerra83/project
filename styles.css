@@ -149,4 +149,24 @@ nav a:hover {
     height: 150px;
 }
 
-< !-- Contact Information -->.contact-info li.phone {}
+/******************
+Contact Information
+*******************/
+
+.contact-info li {
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+.contact-info li.phone {
+    list-style: image url(img/telephone-fill.svg);
+}
+
+.contact-info li.email {
+    list-style: image url(img/envelope-fill.svg);
+}
+
+.contact-info li.twitter {
+    list-style: image url(img/twitter.svg);
+}
