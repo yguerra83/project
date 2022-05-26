@@ -172,3 +172,22 @@ Contact styles
 .contact-info li.twitter {
     list-style: image url(img/twitter.svg);
 }
+
+/**************
+Hamburger menu
+***************/
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+/*************
+Hamburger icon
+**************/
+
+#toggle {
+    display: none;
+}
