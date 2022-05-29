@@ -27,3 +27,36 @@ document.addEventListener("DOMContentLoaded", function () {
 
             return isFieldValid;
         }
+
+        function isValid() {
+            var valid = true;
+
+            valid &= fieldValidation(fields.firstName, isNotEmpty);
+            valid &= fieldValidation(fields.lastName, isNotEmpty);
+            valid &= fieldValidation(fields.email, isEmail);
+            valid &= fieldValidation(fields.question, isNotEmpty);
+            return valid;
+        }
+
+        class User {
+            constructor(firstName, lastName, gender, address, country, email, newsletter, question) {
+                this.firstName = firstName;
+                this.lastName = lastName;
+                this.gender = gender;
+                this.address = address;
+                this.country = country;
+                this.email = email;
+                this.newsletter = newsletter;
+                this.question = question;
+            }
+        }
+
+        function sendContact() {
+
+            if (isValid) {
+                let usr = new User(firstName.value, lastName.value, email.value)
+                alert('${usr.firstName} thank for registering.')
+            } else {
+                alert("There was an error")
+            }
+        }
