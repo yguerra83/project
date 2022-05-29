@@ -38,12 +38,23 @@
             </aside>
         </div>
         <article>
-            <h2 class="breed">Contact Information</h2>
-            <ul class="contact-info">
-                <li class="phone"><a href="tel:9042354031">(904) 235-4031</a></li>
-                <li class="email"><a href="mailto:yguerra83@gmail.com">yguerra83@gmail.com</a></li>
-                <li class="twitter"><a href="https://twitter.com" target="_blank">@YannierGuerra</a></li>
-            </ul>
+            <h3 class="breed">For more information how you can get one puppy:</h3>
+            <h3 class="breed">Contact US</h3>
+            <br>
+            <form onsubmit="return false"></form>
+            <input type="text" placeholder="Enter your last name" id="lastName" />
+            <br><br>
+            <input type="text" placeholder="Enter your first name" id="firstName" />
+            <br><br>
+            <input type="email" placeholder="Enter your email" id="email" />
+            <br><br>
+            <span>Message</span>
+            <br>
+            <textarea id="question" rows="6"></textarea>
+            <br><br>
+            <button onclick="sendContact();">Send contact</button>
+
+
         </article>
 
     </main>
