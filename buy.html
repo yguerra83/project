@@ -37,24 +37,23 @@
                 <figcaption><b>Pembroke Welsh Corgi</b></figcaption>
             </aside>
         </div>
-        <article>
-            <h3 class="breed">Which variety would you like to buy?</h3>
-            <h3 class="breed">Contact US</h3>
-            <br>
-            <form onsubmit="return false"></form>
-            <input type="text" placeholder="Enter your last name" id="lastName" />
-            <br><br>
-            <input type="text" placeholder="Enter your first name" id="firstName" />
-            <br><br>
-            <input type="email" placeholder="Enter your email" id="email" />
-            <br><br>
-            <span>Message</span>
-            <br>
-            <textarea id="question" rows="6"></textarea>
-            <br><br>
-            <button onclick="sendContact();">Send contact</button>
-
-
+        <article onload='document.form1.text1.focus()'>
+            <div class="mail">
+                <h2>Which variety would you like to buy?</h2>
+                <h2>Contact US</h2>
+                <form name="form1" action="#">
+                    <ul class="list">
+                        <li><input type='text' placeholder="Enter your Name" /></li>
+                        <li>&nbsp;</li>
+                        <li><input type='text' placeholder="Enter your Last Name" /></li>
+                        <li>&nbsp;</li>
+                        <li><input type='text' name='text1' placeholder="Enter your email" /></li>
+                        <li>&nbsp;</li>
+                        <li class="submit"><input type="submit" name="submit" value="Submit"
+                                onclick="ValidateEmail(document.form1.text1)" /></li>
+                        <textarea id="question" rows="6" placeholder="Message"></textarea>
+                    </ul>
+            </div>
         </article>
 
     </main>
@@ -65,9 +64,10 @@
             <li><a href="contact.html">Contact</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="varities.html">Varities</a></li>
+            <li><a href="buy.html">Buy</a></li>
         </ul>
     </footer>
-    <script type="text/javascript" src="javascript-file.js"></script>
+    <script src="./javascript-file.js"></script>
 </body>
 
 </html>

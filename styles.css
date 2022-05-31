@@ -197,3 +197,42 @@ Hamburger icon
 #toggle {
     display: none;
 }
+
+/***************
+Contact Form
+***************/
+
+.list {
+    list-style-type: none;
+    font-size: 16pt;
+}
+
+.mail {
+    margin-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    background:
+        #a493c0;
+    border: 1px soild #999;
+}
+
+.mail h2 {
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    font-size: 15pt;
+}
+
+input:focus,
+textarea:focus {
+    background-color:
+        lightyellow;
+}
+
+input submit {
+    font-size: 12pt;
+}

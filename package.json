@@ -1,0 +1,5 @@
+#
+Inside package.json...
+    "scripts": {
+        "dev": "lite-server"
+    },
