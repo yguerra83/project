@@ -1,12 +1,8 @@
-function ValidateEmail(inputText) {
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if (inputText.value.match(mailformat)) {
-        window.confirm("Valid email address!");
-        document.form1.text1.focus();
-        return true;
+function myFunction() {
+    var x = document.getElementById("logo");
+    if (x.style.display === "none") {
+        x.style.display = "block";
     } else {
-        window.confirm("You have entered an invalid email address!");
-        document.form1.text1.focus();
-        return false;
+        x.style.display = "none";
     }
 }

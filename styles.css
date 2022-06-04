@@ -179,6 +179,22 @@ Contact styles
     list-style: image url(img/twitter.svg);
 }
 
+.contact-button {
+    background-color: #a493c0;
+    color: white;
+    border-radius: 8px;
+    margin-left: 35px;
+    font-weight: bold;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+}
+
+.contact-button:hover {
+    color: yellow;
+    background-color: #999;
+}
+
 /**************
 Hamburger menu
 ***************/
